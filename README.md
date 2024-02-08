@@ -10,6 +10,7 @@ Should serve as an api for an e-commerce store, built using node express, mysql 
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Endpoints](#endpoints)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
@@ -24,6 +25,26 @@ Should serve as an api for an e-commerce store, built using node express, mysql 
 ## Usage
 - to run app `node server.js`
 - test endpoints by using Insomnia Rest or Postman
+
+## Endpoints
+
+GET api/products<br />
+POST api/products<br />
+GET api/products/{id}<br />
+PUT api/products/{id}<br />
+DELETE api/products/{id}<br />
+
+GET api/tags<br />
+POST api/tags<br />
+GET api/tags/{id}<br />
+PUT api/tags/{id}<br />
+DELETE api/tags/{id}<br />
+
+GET api/categories<br />
+POST api/categories<br />
+GET api/categories/{id}<br />
+PUT api/categories/{id}<br />
+DELETE api/categories/{id}<br />
 
 ## Contributing
 ChuckieCodes
